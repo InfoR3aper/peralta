@@ -5,11 +5,15 @@ import requests
 def main():
     """fetch and parse data"""
 
-    params = {'cx': '007775541357642725620:_e0fcphnv60',
-              'q': 'intitle:devops intext:remote',
-              'key': os.environ['API_KEY']}
+    # TODO: add error handling
+    api_key = os.environ['API_KEY']
+    query_params = {'cx': '007775541357642725620:_e0fcphnv60',
+                    'q': 'intitle:devops intext:remote',
+                    'key': api_key}
 
-    resp = requests.get('https://www.googleapis.com/customsearch/v1', params=params)
+    # TODO: add error handling
+    resp = requests.get('https://www.googleapis.com/customsearch/v1', params=query_params)
+
     data = resp.json()
     for item in data['items']:
         print(item['title'])
