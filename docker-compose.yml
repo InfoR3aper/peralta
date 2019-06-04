@@ -1,0 +1,5 @@
+version: '3'
+services:
+  creasy:
+    build: .
+    env_file: .env
