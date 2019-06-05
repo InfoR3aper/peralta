@@ -4,7 +4,11 @@ python:
   - "3.6"
 install:
   - pip3 install -r requirements/dev.txt
-script:
-  - pytest
+cache: pip
 notifications:
   email: false
+jobs:
+  include:
+  - stage: tests
+    script: pytest
+  - script: pylint peralta.py
