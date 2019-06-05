@@ -1,0 +1,407 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - intitle:devops intext:remote",
+    "totalResults": "279",
+    "searchTerms": "intitle:devops intext:remote",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007775541357642725620:_e0fcphnv60"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - intitle:devops intext:remote",
+    "totalResults": "279",
+    "searchTerms": "intitle:devops intext:remote",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007775541357642725620:_e0fcphnv60"
+   }
+  ]
+ },
+ "context": {
+  "title": "devops jobs"
+ },
+ "searchInformation": {
+  "searchTime": 0.238791,
+  "formattedSearchTime": "0.24",
+  "totalResults": "279",
+  "formattedTotalResults": "279"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Job Application for DevOps Engineer at Netlify",
+   "htmlTitle": "Job Application for \u003cb\u003eDevOps\u003c/b\u003e Engineer at Netlify",
+   "link": "https://boards.greenhouse.io/netlify/jobs/4126879002",
+   "displayLink": "boards.greenhouse.io",
+   "snippet": "Whether you work from our main office in San Francisco, or you are a remote \nemployee, we'll be working together a lot - particularly, pairing and collaborating\n ...",
+   "htmlSnippet": "Whether you work from our main office in San Francisco, or you are a \u003cb\u003eremote\u003c/b\u003e \u003cbr\u003e\nemployee, we&#39;ll be working together a lot - particularly, pairing and collaborating\u003cbr\u003e\n&nbsp;...",
+   "cacheId": "IcrKX0dCCdYJ",
+   "formattedUrl": "https://boards.greenhouse.io/netlify/jobs/4126879002",
+   "htmlFormattedUrl": "https://boards.greenhouse.io/netlify/jobs/4126879002",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "431",
+      "height": "117",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMuWLcMxnBZkNDKJRuButdmu0Q087PY3VRUIlOJmhRruK6LF263rq2-Ic"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "og:title": "DevOps Engineer",
+      "og:description": "Netlify HQ, Remote EMEA, Remote LATAM, Remote US",
+      "og:url": "https://boards.greenhouse.io/netlify/jobs/4126879002",
+      "og:image": "https://s2-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/250/900/original/full-logo-light.png?1533656051",
+      "og:type": "article"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://s2-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/250/900/original/full-logo-light.png?1533656051"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "DevOps Engineer (Remote) - Apply online - TaxJar - Jobs",
+   "htmlTitle": "DevOps Engineer (Remote) - Apply online - TaxJar - Jobs",
+   "link": "https://taxjar.workable.com/j/8DE98BC197",
+   "displayLink": "taxjar.workable.com",
+   "snippet": "TaxJar's remote-only team of 80 people is growing quickly. We have an \nimmediate opening for a DevOps Engineer who wants to help us make \neCommerce ...",
+   "htmlSnippet": "TaxJar&#39;s \u003cb\u003eremote\u003c/b\u003e-only team of 80 people is growing quickly. We have an \u003cbr\u003e\nimmediate opening for a DevOps Engineer who wants to help us make \u003cbr\u003e\neCommerce&nbsp;...",
+   "cacheId": "8xTUsG44ShUJ",
+   "formattedUrl": "https://taxjar.workable.com/j/8DE98BC197",
+   "htmlFormattedUrl": "https://taxjar.workable.com/j/8DE98BC197",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "IAXxROwp1JrC/t+rxeJ6HGw7TfOr5J4qAWssvzInimRaXn0D12jTfQcK30GWQM1OEp4czYKjMlqDNOGsih1ToA==",
+      "og:title": "Job opening: DevOps Engineer (Remote) at TaxJar",
+      "og:description": "Job opening: DevOps Engineer (Remote) at TaxJar.",
+      "og:image": "https://www.workable.com/assets/facebook-preview.png",
+      "og:url": "https://taxjar.workable.com/j/8DE98BC197",
+      "og:site_name": "https://www.workable.com",
+      "og:type": "website"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.workable.com/assets/facebook-preview.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Heetch - Lead DevOps Engineer - CI/CD - Full Remote in Europe",
+   "htmlTitle": "Heetch - Lead \u003cb\u003eDevOps\u003c/b\u003e Engineer - CI/CD - Full Remote in Europe",
+   "link": "https://jobs.lever.co/heetch/8412a47d-f415-42b3-856a-988867c972ab",
+   "displayLink": "jobs.lever.co",
+   "snippet": "We're a young company iterating over our remote culture so for now, we're only \nworking with people in locations where the time zone is: -3 hours \u003e Paris time ...",
+   "htmlSnippet": "We&#39;re a young company iterating over our \u003cb\u003eremote\u003c/b\u003e culture so for now, we&#39;re only \u003cbr\u003e\nworking with people in locations where the time zone is: -3 hours &gt; Paris time&nbsp;...",
+   "cacheId": "OZ66KffF5LUJ",
+   "formattedUrl": "https://jobs.lever.co/.../8412a47d-f415-42b3-856a-988867c972ab",
+   "htmlFormattedUrl": "https://jobs.lever.co/.../8412a47d-f415-42b3-856a-988867c972ab",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "304",
+      "height": "166",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmhW5-W7sRksxIkR6zKf5CQag82qzUme1vHtWNXbTNtG39mX90uf1JvocJ"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "twitter:title": "Heetch - Lead DevOps Engineer - CI/CD - Full Remote in Europe",
+      "twitter:description": "⚠️Read before applying: We're a young company iterating over our remote culture so for now, we're only working with people in locations where the time zone is: -3 hours \u003e Paris time zone \u003c +3 hours Delivery Platform Team @Heetch Our team's mission is to provide a fast, reliable and scalable continuous delivery platform to support the growth of all Heetch engineering teams. Our platform and tools are used by developers every day and, empower them by reducing the time to market of a feature, from the time we have an idea, to the time a feature is available to all our passengers and drivers. The platform is written in Golang, built with Drone.io and powers hundreds of Go/Elixir microservices on top of Docker. Our team's values • Move smart: We measure everything, and employ tools and standards to ship code quickly and safely (continuous integration, code review, automated testing). • Distribute knowledge: We want to scale our team to a point where our contributions do not stop at the c",
+      "twitter:image": "https://lever-client-logos.s3.amazonaws.com/f7871096-23db-4647-927c-2e30ac45d403-1510239789570.png",
+      "og:title": "Heetch - Lead DevOps Engineer - CI/CD - Full Remote in Europe",
+      "og:description": "⚠️Read before applying: We're a young company iterating over our remote culture so for now, we're only working with people in locations where the time zone is: -3 hours \u003e Paris time zone \u003c +3 hours Delivery Platform Team @Heetch Our team's mission is to provide a fast, reliable and scalable continuous delivery platform to support the growth of all Heetch engineering teams. Our platform and tools are used by developers every day and, empower them by reducing the time to market of a feature, from the time we have an idea, to the time a feature is available to all our passengers and drivers. The platform is written in Golang, built with Drone.io and powers hundreds of Go/Elixir microservices on top of Docker. Our team's values • Move smart: We measure everything, and employ tools and standards to ship code quickly and safely (continuous integration, code review, automated testing). • Distribute knowledge: We want to scale our team to a point where our contributions do not stop at the c",
+      "og:url": "https://jobs.lever.co/heetch/8412a47d-f415-42b3-856a-988867c972ab",
+      "og:image": "https://lever-client-logos.s3.amazonaws.com/f7871096-23db-4647-927c-2e30ac45d403-1510239772036.png",
+      "og:image:height": "200"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://lever-client-logos.s3.amazonaws.com/f7871096-23db-4647-927c-2e30ac45d403-1510239772036.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "LaunchDarkly - DevOps Engineer (UK Remote)",
+   "htmlTitle": "LaunchDarkly - \u003cb\u003eDevOps\u003c/b\u003e Engineer (UK Remote)",
+   "link": "https://jobs.lever.co/launchdarkly/3f6b4d1b-fbfa-4da5-b0b6-45646fb43834",
+   "displayLink": "jobs.lever.co",
+   "snippet": "Note: This DevOps position would be entirely remote and preferably in the UK. \nThere is an expectation of overlapping some Pacific Time hours as well.",
+   "htmlSnippet": "Note: This DevOps position would be entirely \u003cb\u003eremote\u003c/b\u003e and preferably in the UK. \u003cbr\u003e\nThere is an expectation of overlapping some Pacific Time hours as well.",
+   "cacheId": "ZxyRou1IhkAJ",
+   "formattedUrl": "https://jobs.lever.co/.../3f6b4d1b-fbfa-4da5-b0b6-45646fb43834",
+   "htmlFormattedUrl": "https://jobs.lever.co/.../3f6b4d1b-fbfa-4da5-b0b6-45646fb43834",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "310",
+      "height": "163",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfJ22So7UvrjbvY3rdYIbFeOniiD9ZW4R9kVu0HQYXPVioMw_PBU9dnpIP"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "twitter:title": "LaunchDarkly - DevOps Engineer (UK Remote)",
+      "twitter:description": "Note: This DevOps position would be entirely remote and preferably in the UK. There is an expectation of overlapping some Pacific Time hours as well. As a DevOps Engineer, you will help us maintain and scale LaunchDarkly's engineering infrastructure. In addition to our SaaS offering, you will deliver private instances of the LaunchDarkly service for our enterprise customers. You are passionate about system reliability, performance, and security, with an eye toward taking our operations to the next level (from semi-automated to fully automated). LaunchDarkly is a rapidly growing software company with a strong mission and vision carried out by a talented and diverse team of employees. Our goal is to help teams build better software, faster. You'll join a small team from companies like Atlassian, Intercom, and Twitter, and you'll have an immediate impact with our product and customers.",
+      "twitter:image": "https://lever-client-logos.s3.amazonaws.com/d980aa49-0359-4241-9c6a-213ac98606b4-1518196947906.png",
+      "og:title": "LaunchDarkly - DevOps Engineer (UK Remote)",
+      "og:description": "Note: This DevOps position would be entirely remote and preferably in the UK. There is an expectation of overlapping some Pacific Time hours as well. As a DevOps Engineer, you will help us maintain and scale LaunchDarkly's engineering infrastructure. In addition to our SaaS offering, you will deliver private instances of the LaunchDarkly service for our enterprise customers. You are passionate about system reliability, performance, and security, with an eye toward taking our operations to the next level (from semi-automated to fully automated). LaunchDarkly is a rapidly growing software company with a strong mission and vision carried out by a talented and diverse team of employees. Our goal is to help teams build better software, faster. You'll join a small team from companies like Atlassian, Intercom, and Twitter, and you'll have an immediate impact with our product and customers.",
+      "og:url": "https://jobs.lever.co/launchdarkly/3f6b4d1b-fbfa-4da5-b0b6-45646fb43834",
+      "og:image": "https://lever-client-logos.s3.amazonaws.com/d980aa49-0359-4241-9c6a-213ac98606b4-1518196956241.png",
+      "og:image:height": "630",
+      "og:image:width": "1200"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://lever-client-logos.s3.amazonaws.com/d980aa49-0359-4241-9c6a-213ac98606b4-1518196956241.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Imperfect Produce - DevOps Engineer (Remote)",
+   "htmlTitle": "Imperfect Produce - \u003cb\u003eDevOps\u003c/b\u003e Engineer (Remote)",
+   "link": "https://jobs.lever.co/imperfectproduce/cd081388-dcac-47c8-9f69-f9e910b8d77a",
+   "displayLink": "jobs.lever.co",
+   "snippet": "DevOps Engineer (Remote). Nationwide. Engineering. Full-time. Apply for this \njob. About Imperfect. Imperfect is a produce delivery startup on a mission to ...",
+   "htmlSnippet": "DevOps Engineer (\u003cb\u003eRemote\u003c/b\u003e). Nationwide. Engineering. Full-time. Apply for this \u003cbr\u003e\njob. About Imperfect. Imperfect is a produce delivery startup on a mission to&nbsp;...",
+   "cacheId": "ZSYCLVQAI28J",
+   "formattedUrl": "https://jobs.lever.co/.../cd081388-dcac-47c8-9f69-f9e910b8d77a",
+   "htmlFormattedUrl": "https://jobs.lever.co/.../cd081388-dcac-47c8-9f69-f9e910b8d77a",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "310",
+      "height": "163",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSvKLmmc77x6wSSYz9kdBYBCxy55j6m1tBLoDqmGPvPYBBiRG0ALOdsUw"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "twitter:title": "Imperfect Produce - DevOps Engineer (Remote)",
+      "twitter:description": "About the Role We are looking for a DevOps Engineer who can help us manage our cloud-based servers and infrastructure (AWS, among others). If you're a take-charge problem solver passionate about fighting food waste, we'd love to talk!",
+      "twitter:image": "https://lever-client-logos.s3.amazonaws.com/8a9eb52e-2ee5-485c-a294-d56053ca3d64-1550868200207.png",
+      "og:title": "Imperfect Produce - DevOps Engineer (Remote)",
+      "og:description": "About the Role We are looking for a DevOps Engineer who can help us manage our cloud-based servers and infrastructure (AWS, among others). If you're a take-charge problem solver passionate about fighting food waste, we'd love to talk!",
+      "og:url": "https://jobs.lever.co/imperfectproduce/cd081388-dcac-47c8-9f69-f9e910b8d77a",
+      "og:image": "https://lever-client-logos.s3.amazonaws.com/8a9eb52e-2ee5-485c-a294-d56053ca3d64-1526586483659.png",
+      "og:image:height": "630",
+      "og:image:width": "1200"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://lever-client-logos.s3.amazonaws.com/8a9eb52e-2ee5-485c-a294-d56053ca3d64-1526586483659.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Remote Blockchain DevOps Engineer - Apply online - OneinaMil - Jobs",
+   "htmlTitle": "Remote Blockchain DevOps Engineer - Apply online - OneinaMil - Jobs",
+   "link": "https://oneinamil.workable.com/jobs/1014724",
+   "displayLink": "oneinamil.workable.com",
+   "snippet": "Remote Blockchain DevOps Engineer. Russia, Moscow Oblast, Russian \nFederation. Description. Company Introduction. OneinaMil is a talent \nmatchmaking firm, ...",
+   "htmlSnippet": "\u003cb\u003eRemote\u003c/b\u003e Blockchain DevOps Engineer. Russia, Moscow Oblast, Russian \u003cbr\u003e\nFederation. Description. Company Introduction. OneinaMil is a talent \u003cbr\u003e\nmatchmaking firm,&nbsp;...",
+   "cacheId": "MR-EMd0YrE8J",
+   "formattedUrl": "https://oneinamil.workable.com/jobs/1014724",
+   "htmlFormattedUrl": "https://oneinamil.workable.com/jobs/1014724",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "178",
+      "height": "120",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjaxSLpPQ_hHC6q6JQST5uG-xJKn8gAIgRN3BTVIevYN2zLzoQ1GsNWs"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "csrf-param": "authenticity_token",
+      "csrf-token": "Qc9ihcqoZSZJkIpa9RH32MS7ZQKT2JjhY3VNtoeK4Sej22dxR0bnXcT1pDMuE2hGB49HTfEtgkkLbwJUpEwLrw==",
+      "og:title": "Job opening: Remote Blockchain DevOps Engineer at OneinaMil",
+      "og:description": "Job opening: Remote Blockchain DevOps Engineer at OneinaMil.",
+      "og:image": "https://www.workable.com/assets/facebook-preview.png",
+      "og:url": "https://oneinamil.workable.com/j/18D0C6F839",
+      "og:site_name": "https://www.workable.com",
+      "og:type": "website"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://workablehr.s3.amazonaws.com/uploads/account/logo/72060/Screen_Shot_2016-07-19_at_3.49.16_PM.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Job Application for DevOps Certification Program Architect at GitHub",
+   "htmlTitle": "Job Application for \u003cb\u003eDevOps\u003c/b\u003e Certification Program Architect at GitHub",
+   "link": "https://boards.greenhouse.io/github/jobs/1606380",
+   "displayLink": "boards.greenhouse.io",
+   "snippet": "Excellent verbal and written communication skills. Self-motivated and organized \nto collaborate with a fully remote team. Travel: 10-20%. Limited travel required ...",
+   "htmlSnippet": "Excellent verbal and written communication skills. Self-motivated and organized \u003cbr\u003e\nto collaborate with a fully \u003cb\u003eremote\u003c/b\u003e team. Travel: 10-20%. Limited travel required&nbsp;...",
+   "cacheId": "gCy9tZXiMgAJ",
+   "formattedUrl": "https://boards.greenhouse.io/github/jobs/1606380",
+   "htmlFormattedUrl": "https://boards.greenhouse.io/github/jobs/1606380",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnfdvwGlBxtY6eeO3JseAbxNSIReTjI8f5-hHjWrKfyOuh4lNC4lp_5eY"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "og:title": "DevOps Certification Program Architect",
+      "og:description": "Remote - US, Remote - EMEA",
+      "og:url": "https://boards.greenhouse.io/github/jobs/1606380",
+      "og:image": "https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/411/original/github_jobs_logo_480.png?1515454120",
+      "og:type": "article"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/411/original/github_jobs_logo_480.png?1515454120"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Job Application for DevOps Consultant, Remote at CloudBees",
+   "htmlTitle": "Job Application for \u003cb\u003eDevOps\u003c/b\u003e Consultant, Remote at CloudBees",
+   "link": "https://boards.greenhouse.io/cloudbees/jobs/1593127",
+   "displayLink": "boards.greenhouse.io",
+   "snippet": "DevOps Consultant, Remote. at CloudBees (View all jobs). London, United \nKingdom. Our Customers Develop Software at the Speed of Ideas. CloudBees is \nthe ...",
+   "htmlSnippet": "DevOps Consultant, \u003cb\u003eRemote\u003c/b\u003e. at CloudBees (View all jobs). London, United \u003cbr\u003e\nKingdom. Our Customers Develop Software at the Speed of Ideas. CloudBees is \u003cbr\u003e\nthe&nbsp;...",
+   "cacheId": "s7Kcsx2XFmIJ",
+   "formattedUrl": "https://boards.greenhouse.io/cloudbees/jobs/1593127",
+   "htmlFormattedUrl": "https://boards.greenhouse.io/cloudbees/jobs/1593127",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "og:title": "DevOps Consultant, Remote",
+      "og:description": "London, United Kingdom",
+      "og:url": "https://boards.greenhouse.io/cloudbees/jobs/1593127",
+      "og:type": "article"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Sonatype - Senior DevOps Engineer - 100% Remote - Canada/UK ...",
+   "htmlTitle": "Sonatype - Senior \u003cb\u003eDevOps\u003c/b\u003e Engineer - 100% Remote - Canada/UK ...",
+   "link": "https://jobs.lever.co/sonatype/e32bda83-c5b7-4a78-a8f7-e5b90a3359c5",
+   "displayLink": "jobs.lever.co",
+   "snippet": "Senior DevOps Engineer - 100% Remote - Canada/UK/USA. Remote. Product \nEngineering – Technical Operations. Full-Time. Apply for this job. Sonatype has ...",
+   "htmlSnippet": "Senior DevOps Engineer - 100% \u003cb\u003eRemote\u003c/b\u003e - Canada/UK/USA. \u003cb\u003eRemote\u003c/b\u003e. Product \u003cbr\u003e\nEngineering – Technical Operations. Full-Time. Apply for this job. Sonatype has&nbsp;...",
+   "cacheId": "2KSBYd-wJzsJ",
+   "formattedUrl": "https://jobs.lever.co/.../e32bda83-c5b7-4a78-a8f7-e5b90a3359c5",
+   "htmlFormattedUrl": "https://jobs.lever.co/.../e32bda83-c5b7-4a78-a8f7-e5b90a3359c5",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "310",
+      "height": "163",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR063EONub5AIV9u-IYEmSjLGGDjWbzynPutDrCNSBcL_iUd0ylre-xbOE"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "twitter:title": "Sonatype - Senior DevOps Engineer - 100% Remote - Canada/UK/USA",
+      "twitter:description": "Sonatype has been on the forefront of crafting solutions to manage, organize, and better secure components since the inception of the Central Repository and Maven in 2001. More than a trillion dollars is spent annually on software development and our aim is to help application teams do that better and faster. Our mission is simple – help the world build better software, even faster. This is done by providing unprecedented visibility combined with the guidance needed to make the best selections from the open source ecosystem as early as possible, and enabling teams to choose wisely from the beginning. We are looking for a Senior DevOps Engineer to join the Sonatype Operations team. The team has a wide range of responsibilities to build, scale, and maintain the company’s technical infrastructure, including Maven Central, CI, and hosted data services. Some of the technologies we use include Terraform, Ansible, many AWS services, and Datadog.",
+      "twitter:image": "https://lever-client-logos.s3.amazonaws.com/f71fdf53-ca28-4888-a2ae-8f01b01afa91-1548710311733.png",
+      "og:title": "Sonatype - Senior DevOps Engineer - 100% Remote - Canada/UK/USA",
+      "og:description": "Sonatype has been on the forefront of crafting solutions to manage, organize, and better secure components since the inception of the Central Repository and Maven in 2001. More than a trillion dollars is spent annually on software development and our aim is to help application teams do that better and faster. Our mission is simple – help the world build better software, even faster. This is done by providing unprecedented visibility combined with the guidance needed to make the best selections from the open source ecosystem as early as possible, and enabling teams to choose wisely from the beginning. We are looking for a Senior DevOps Engineer to join the Sonatype Operations team. The team has a wide range of responsibilities to build, scale, and maintain the company’s technical infrastructure, including Maven Central, CI, and hosted data services. Some of the technologies we use include Terraform, Ansible, many AWS services, and Datadog.",
+      "og:url": "https://jobs.lever.co/sonatype/e32bda83-c5b7-4a78-a8f7-e5b90a3359c5",
+      "og:image": "https://lever-client-logos.s3.amazonaws.com/f71fdf53-ca28-4888-a2ae-8f01b01afa91-1548710516525.png",
+      "og:image:height": "630",
+      "og:image:width": "1200"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://lever-client-logos.s3.amazonaws.com/f71fdf53-ca28-4888-a2ae-8f01b01afa91-1548710516525.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Job Application for DevOps Engineer at OnDeck",
+   "htmlTitle": "Job Application for \u003cb\u003eDevOps\u003c/b\u003e Engineer at OnDeck",
+   "link": "https://boards.greenhouse.io/ondeck/jobs/1539162",
+   "displayLink": "boards.greenhouse.io",
+   "snippet": "Denver, CO; Arlington, VA; Remote. At OnDeck, we make small business a big \ndeal. We're improving the world's economic landscape by changing the way ...",
+   "htmlSnippet": "Denver, CO; Arlington, VA; \u003cb\u003eRemote\u003c/b\u003e. At OnDeck, we make small business a big \u003cbr\u003e\ndeal. We&#39;re improving the world&#39;s economic landscape by changing the way&nbsp;...",
+   "cacheId": "Y7APKFuLbhUJ",
+   "formattedUrl": "https://boards.greenhouse.io/ondeck/jobs/1539162",
+   "htmlFormattedUrl": "https://boards.greenhouse.io/ondeck/jobs/1539162",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwfGPK4uXf_gbd_SPsjkN-cFOl-Q6tzstV1aOi7jR1ZSeDNVzRgAdFv7g"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      "og:title": "DevOps Engineer",
+      "og:description": "Denver, CO; Arlington, VA; Remote",
+      "og:url": "https://boards.greenhouse.io/ondeck/jobs/1539162",
+      "og:image": "https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/000/266/original/greenhouse.ondeck.logo.png?1479744615",
+      "og:type": "article"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/000/266/original/greenhouse.ondeck.logo.png?1479744615"
+     }
+    ]
+   }
+  }
+ ]
+}
