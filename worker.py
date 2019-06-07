@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-import peralta
+from peralta import search, database
 
 def main():
-    data = peralta.query()
-    jobs = []
-    for d in data['items']:
-        jobs.append(peralta.parse(d))
+    db = database.db()
 
-    for j in jobs:
-        print("{} {} {}".format(j['name'], j['url'], j['desc']))
+    data = search.query()
+    jobs = []
+    for i in data['items']:
+        jobs.append(search.parse(i))
+
+    for job in jobs:
+        db.insert(job)
 
 if __name__ == '__main__':
     main()
