@@ -1,4 +1,3 @@
-#!/usr/bin/env python3.6
 import os
 import requests
 
@@ -30,13 +29,3 @@ def parse(job):
         if 'og:description' in metatag:
             f['desc'] = metatag['og:description']
     return f
-
-
-if __name__ == '__main__':
-    data = query()
-    jobs = []
-    for d in data['items']:
-        jobs.append(parse(d))
-
-    for j in jobs:
-        print("{} {} {}".format(j['name'], j['url'], j['desc']))
