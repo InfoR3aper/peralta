@@ -6,8 +6,10 @@ URL = 'https://www.googleapis.com/customsearch/v1'
 CX = '007775541357642725620:_e0fcphnv60'
 Q = 'intitle:devops intext:remote'
 
-# TODO: add error handling
-API_KEY = os.environ['API_KEY']
+try:
+    API_KEY = os.environ['API_KEY']
+except KeyError as e:
+    raise KeyError("API_KEY environment variable not found")
 
 def query():
     """fetch data"""
