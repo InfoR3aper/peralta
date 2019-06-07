@@ -8,5 +8,6 @@ WORKDIR /code
 COPY requirements/ .
 RUN pip3 install -r ${REQUIREMENTS}.txt
 
-COPY peralta.py .
-CMD "./peralta.py"
+COPY peralta/ peralta/
+COPY worker.py .
+CMD "./worker.py"

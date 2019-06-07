@@ -11,4 +11,4 @@ jobs:
   include:
   - stage: tests
     script: pytest
-  - script: pylint peralta
+  - script: pylint peralta worker.py
