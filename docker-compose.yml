@@ -2,6 +2,8 @@ version: '3'
 services:
   peralta:
     build: .
+    volumes:
+    - $PWD:/code
     env_file: .env
   test:
     build: .

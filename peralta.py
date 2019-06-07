@@ -2,35 +2,39 @@
 import os
 import requests
 
-class Peralta():
-    def __init__(self,
-                 url='https://www.googleapis.com/customsearch/v1',
-                 cx='007775541357642725620:_e0fcphnv60',
-                 q='intitle:devops intext:remote'):
-        self.url = url
-        self.cx = cx
-        self.q = q
+URL = 'https://www.googleapis.com/customsearch/v1'
+CX = '007775541357642725620:_e0fcphnv60'
+Q = 'intitle:devops intext:remote'
 
-    def query(self):
-        """fetch data"""
+# TODO: add error handling
+API_KEY = os.environ['API_KEY']
 
-        # TODO: add error handling
-        api_key = os.environ['API_KEY']
-        query_params = {'cx': self.cx,
-                        'q': self.q,
-                        'key': api_key}
+def query():
+    """fetch data"""
+    query_params = {'cx': CX,
+                    'q': Q,
+                    'key': API_KEY}
 
-        # TODO: add error handling
-        resp = requests.get(self.url, params=query_params)
+    # TODO: add error handling
+    resp = requests.get(URL, params=query_params)
+    return resp.json()
 
-        data = resp.json()
-        for item in data['items']:
-            print(item['title'])
-            print(item['link'])
-            for metatag in item['pagemap']['metatags']:
-                if 'og:description' in metatag:
-                    print(metatag['og:description'])
+def parse(job):
+    """extract data from job listing"""
+    f = {}
+    f['name'] = job['title']
+    f['url'] = job['link']
+    for metatag in job['pagemap']['metatags']:
+        if 'og:description' in metatag:
+            f['desc'] = metatag['og:description']
+    return f
+
 
 if __name__ == '__main__':
-    p = Peralta()
-    p.query()
+    data = query()
+    jobs = []
+    for d in data['items']:
+        jobs.append(parse(d))
+
+    for j in jobs:
+        print("{} {} {}".format(j['name'], j['url'], j['desc']))
