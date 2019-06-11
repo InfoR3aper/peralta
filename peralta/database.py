@@ -15,10 +15,14 @@ class db():
         # TODO: add validation
         self.client.close()
 
-    def insert(self, job):
+    def insert(self, name, url, desc=None):
         # TODO: add error handling
         self._connect()
-        r = self.db.job.insert_one(job)
+        r = self.db.job.update_one(filter={"name": name},
+                                   update={'$set': {'name': name,
+                                                    'url': url,
+                                                    'desc': desc}},
+                                   upsert=True)
         self._close()
         return r
 
