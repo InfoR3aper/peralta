@@ -10,11 +10,13 @@ try:
 except KeyError as e:
     raise KeyError("API_KEY environment variable not found")
 
-def query():
+def query(index=None):
     """fetch data"""
     query_params = {'cx': CX,
                     'q': Q,
-                    'key': API_KEY}
+                    'key': API_KEY,
+                    'start': index,
+                    'sort': 'date'}
 
     # TODO: add error handling
     resp = requests.get(URL, params=query_params)
